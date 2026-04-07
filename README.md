@@ -6,7 +6,7 @@ Building Large Language Model components from scratch in PyTorch, following Seba
 
 | # | Topic | Notebook | Video |
 |---|---|---|---|
-| 02 | Attention, Transformer & GPT Pre-training | [Notebook](02-attention-transformer-gpt/02-attention-transformer-gpt.ipynb) | [Video]() |
+| 02 | Attention, Transformer & GPT Pre-training | [Notebook](02-attention-transformer-gpt/02-attention-transformer-gpt.ipynb) | [Video](https://drive.google.com/file/d/1k_kR57DFEs87yhMOTcL72zO6CQWUtmKl/view?usp=sharing) |
 
 ## 02 — Attention, Transformer & GPT Pre-training
 
