@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-05-04T01:40:28.118873+00:00",
+  "total_documents": 266,
+  "total_chars": 2473647,
+  "shards": [
+    {
+      "path": "shard-0000.parquet",
+      "document_count": 100,
+      "byte_size": 265030,
+      "sha256": "c0666fac348d28885c987c2a3ee889c9f7a321c56fa27c9d3532e5d75d5143be"
+    },
+    {
+      "path": "shard-0001.parquet",
+      "document_count": 100,
+      "byte_size": 234037,
+      "sha256": "566ba001a41dbee7a9dfced976a906d6c2fb6ea42fdf006967ee915da8184ac3"
+    },
+    {
+      "path": "shard-0002.parquet",
+      "document_count": 66,
+      "byte_size": 164304,
+      "sha256": "f467d186ab7d62696c4267497fe4d45b4e9fd78da83f8adc454e571eb1b12f55"
+    }
+  ],
+  "config": {
+    "input_dir": "/home/heitor-am/Dev/ufpi/topics-in-ai/corpus-prep/data",
+    "output_dir": "data/corpus",
+    "enable_filter": false,
+    "enable_pre_dedup": true,
+    "enable_post_dedup": true,
+    "dedup_threshold": 0.8,
+    "dedup_num_perm": 128,
+    "dedup_ngram_size": 5,
+    "max_docs_per_shard": 100,
+    "filter": {
+      "min_chars": 200,
+      "expected_language": "por_Latn",
+      "min_lang_confidence": 0.5,
+      "max_non_alpha_ratio": 0.5,
+      "min_unique_word_ratio": 0.1
+    }
+  }
+}

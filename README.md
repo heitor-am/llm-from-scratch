@@ -19,6 +19,12 @@ Implementation from scratch of the core components of a GPT-like LLM:
 5. **Portuguese Data Preparation** — Wikipedia PT corpus, BPE tokenization, sliding window dataset (max_length=256, stride=128)
 6. **Pre-training** — 3 epochs with AdamW, qualitative evaluation showing transition from English to Portuguese generation
 
+## Datasets
+
+| Dataset | Documents | Size | Description |
+|---|---|---|---|
+| [`data/municipal-gazettes/`](data/municipal-gazettes/) | 266 | 664 KB | Cleaned PT-BR text from Brazilian municipal official gazettes (Serra da Capivara + Vale do Canindé territories), produced by [corpus-prep](https://github.com/heitor-am/corpus-prep) |
+
 ## Stack
 
 - PyTorch
